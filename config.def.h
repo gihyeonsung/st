@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "NeoDunggeunmo:pixelsize=16";
+static char *font = "NeoDunggeunmo Code:pixelsize=16";
 static int borderpx = 32;
 
 /*
