@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "NeoDunggeunmo Code:pixelsize=16";
-static int borderpx = 32;
+static char *font = "Iosevka:pixelsize=16";
+static int borderpx = 16;
 
 /*
  * What program is execed by st depends of these precedence rules:
