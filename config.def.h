@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Iosevka:pixelsize=16";
-static int borderpx = 16;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
