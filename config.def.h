@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMono:pixelsize=16";
 static int borderpx = 0;
+static char *font = "JetBrainsMono-13";
 
 /*
  * What program is execed by st depends of these precedence rules:
