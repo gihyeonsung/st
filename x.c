@@ -1062,6 +1062,10 @@ ximopen(Display *dpy)
 	xw.ime.spotlist = XVaCreateNestedList(0, XNSpotLocation, &xw.ime.spot,
 	                                      NULL);
 
+  // XXX: Using XIMPredicNothing causes input order problems for Korean.
+  // This problem is fixed by using ad hoc XIMPreeditNone instead of using
+  // XIMPredicNothing.
+  // See: https://edykim.com/ko/post/fix-hangul-input-spacing-order-issue-in-st-with-fcitx/
 	if (xw.ime.xic == NULL) {
 		xw.ime.xic = XCreateIC(xw.ime.xim, XNInputStyle,
 		                       XIMPreeditNone | XIMStatusNothing,
