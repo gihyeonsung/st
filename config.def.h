@@ -8,6 +8,11 @@
 static char *font = "Gohu GohuFont:pixelsize=14";
 static int borderpx = 8;
 
+/* Spare fonts */
+static char *font2[] = {
+	"GulimChe:pixelsize=13",
+};
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
