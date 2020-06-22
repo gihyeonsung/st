@@ -10,7 +10,7 @@ static int borderpx = 8;
 
 /* Spare fonts */
 static char *font2[] = {
-	"GulimChe:pixelsize=13",
+	"GulimChe:pixelsize=12",
 };
 
 /*
