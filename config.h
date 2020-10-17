@@ -5,12 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Gohu GohuFont:pixelsize=14";
-static int borderpx = 14;
+static char *font = "JetBrainsMono Nerd Font:size=13";
+static int borderpx = 20;
 
 /* Spare fonts */
 static char *font2[] = {
-	"GulimChe:pixelsize=12",
+	"Noto Sans CJK KR:style=Medium",
 };
 
 /*
