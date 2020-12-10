@@ -5,12 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMono Nerd Font:size=13";
+static char *font = "JetBrainsMono Nerd Font:size=11";
 static int borderpx = 16;
 
 /* Spare fonts */
 static char *font2[] = {
-	"Noto Sans CJK KR:style=Medium",
+	"Noto Sans CJK KR:style=Medium:size=10",
 };
 
 /*
@@ -97,6 +97,9 @@ char *termname = "st-256color";
  *	stty tabs
  */
 unsigned int tabspaces = 8;
+
+/* bg opacity */
+float alpha = ((float)3)/4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
